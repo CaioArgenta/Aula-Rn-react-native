@@ -9,7 +9,6 @@ function HomeScreen() {
   </View>
   )
 }
-
 function SettingsScreen() {
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center'}}>
@@ -22,8 +21,8 @@ export default function App() {
   return (
     <NavigationContainer>
       <Tab.Navigator>
-        <Tab.Screen name= "Início" component={HomeScreen} />
-        <Tab.Screen name= "Configurações" component={SettingsScreen} />
+        <Tab.Screen name= "- Início -" component={HomeScreen} />
+        <Tab.Screen name= "- Configurações -" component={SettingsScreen} />
       </Tab.Navigator>
     </NavigationContainer>
   );
