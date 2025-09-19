@@ -1,1 +1,0 @@
-# Aula-Rn-react-native
