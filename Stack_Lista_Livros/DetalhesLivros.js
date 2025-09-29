@@ -8,7 +8,7 @@ export default function DetalhesLivro({ route, navigation }) {
     <View style={styles.container}>
       <Text style={styles.titulo}>{livro.titulo}</Text>
       <Text style={styles.autor}>{livro.autor}</Text>
-      <Image source={{ uri: livro.imagem }} style={styles.imagem} />
+      <Image source={{ uri: "https://www.coxinhanerd.com.br/wp-content/uploads/2020/04/os-livros-tecnologia-ler-2020.jpg" }} style={styles.imagem} />
       <Button title="Voltar" onPress={() => navigation.goBack()} />
     </View>
   );
